@@ -40,7 +40,7 @@
                         </div>
                     </a>
                 <div class="search">
-                    <form action="index.php" method="GET" enctype="multipart/form-data">
+                    <form action="search.php" method="GET" enctype="multipart/form-data">
                         <input type="text" name="search" value="<?php echo isset($_GET['search'])?$_GET['search']:'' ?>"
                             onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
                         <input type="submit" name="submit" value="SEARCH">

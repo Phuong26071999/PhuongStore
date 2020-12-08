@@ -16,8 +16,9 @@ body a{
 	-moz-transition: 0.5s all;
 }
 .top-header{
-	background: #F97E76;
+	background: #000000;
 	padding: 0.7em 0;
+	
 }
 .top-header-left{
 	float: left;
@@ -70,6 +71,7 @@ ul.support li a {
 	width: 27%;
     margin-top:9px;
 }
+
 .header-bottom-right{
 	float: right;
 	width: 37%;
@@ -123,7 +125,7 @@ ul.login li a span{
 /*----*/
 .search {
 	background:#fff;
-	border: 1px solid #ddd;
+	border: 3px solid #ddd;
 	position: relative;
 	width: 47%;
 	float: right;
@@ -145,12 +147,13 @@ ul.login li a span{
 	-o-transition: all 0.5s ease-out;
 }
 .search input[type="submit"] {
-	border-left: 1px solid #ddd;
+	border-left: 3px solid #ddd;
+	font-weight: bold;
+	font-family: 'FS Core Magic Rough';
 	outline: none;
 	cursor: pointer;
 	width: 30.6%;
 	height: 35px;
-	padding: 7px;
 	background: none;
 	border-bottom: none;
 	border-top: none;
@@ -1130,6 +1133,7 @@ ul.face-in-to li a span.facebook-in{
 }
 .cate-bottom ul li p a:hover{
 	padding:0;
+	
 }
 .footer-bottom {
 	padding: 2em 0 5em;
@@ -1524,7 +1528,6 @@ img.banner-bag {
     height: 121px;
     overflow: hidden;
 }
-single.htmlmedia="all"
 p {
     margin: 0 0 10px;
 }
